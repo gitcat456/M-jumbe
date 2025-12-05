@@ -1,0 +1,53 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# -------------------------
+# Django
+# -------------------------
+# Local Django DB
+db.sqlite3
+db.sqlite3-journal
+
+# Django migrations (optional: keep them if you're collaborating)
+# Uncomment to ignore migration files:
+# */migrations/*.py
+# */migrations/*.pyc
+# !*/migrations/__init__.py
+
+# Media and static (collected)
+media/
+staticfiles/
+static/
+assets/
+public/
+
+# -------------------------
+# Environment Variables
+# -------------------------
+.env
+*.env
+*.local
+
+# -------------------------
+# IDE / E
+
